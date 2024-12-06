@@ -38,9 +38,9 @@ The backbone of IMS, providing:
 
 ## Installation & Setup
 1. Prerequisites:
-  - Windows Server or compatible OS for SQL Server 2016.
-  - SQL Server Management Studio (SSMS) for database management.
-  - Optional: Visual Studio with SSIS/SSRS extensions for development.
+    - Windows Server or compatible OS for SQL Server 2016.
+    - SQL Server Management Studio (SSMS) for database management.
+    - Optional: Visual Studio with SSIS/SSRS extensions for development.
 
 2. Database Deployment:
   - Restore the provided database backup file (IMS_Backup.bak) to SQL Server 2016.
