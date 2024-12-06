@@ -20,15 +20,18 @@ Core scripting language for database development and management tasks. Used for:
   - Writing complex queries, views, and stored procedures.
   - Implementing business logic within the database.
   - Performance tuning through indexing and query optimization.
+
 - SQL Server 2016:
 The backbone of IMS, providing:
   - Enhanced security features such as Always Encrypted and Row-Level Security.
   - High availability through features like Always On Availability Groups.
   - Built-in advanced analytics and reporting capabilities.
+
 - SSIS (SQL Server Integration Services):
   - Automates ETL processes for importing and exporting inventory data.
   - Ensures data consistency by integrating data from multiple sources.
   - Scheduled data workflows for real-time data synchronization.
+
 - SSRS (SQL Server Reporting Services):
   - Generates detailed inventory reports, including stock summaries, sales trends, and restock alerts.
   - Exports reports in multiple formats like PDF, Excel, and HTML for stakeholder use.
@@ -43,21 +46,21 @@ The backbone of IMS, providing:
     - Optional: Visual Studio with SSIS/SSRS extensions for development.
 
 2. Database Deployment:
-  - Restore the provided database backup file (IMS_Backup.bak) to SQL Server 2016.
-  - Configure database settings, including permissions and encryption keys.
+    - Restore the provided database backup file (IMS_Backup.bak) to SQL Server 2016.
+    - Configure database settings, including permissions and encryption keys.
 
 3. ETL Configuration (SSIS):
-  - Import SSIS package files (`IMS_ETL_Package.dtsx`) into SQL Server Data Tools (SSDT).
-  - Update connection strings to match your environment.
+    - Import SSIS package files (`IMS_ETL_Package.dtsx`) into SQL Server Data Tools (SSDT).
+    - Update connection strings to match your environment.
 
 4. Reporting Setup (SSRS):
-  - Deploy the SSRS report files (IMS_Reports.rdl) to the SSRS server.
-  - Configure report subscriptions and delivery settings.
+    - Deploy the SSRS report files (IMS_Reports.rdl) to the SSRS server.
+    - Configure report subscriptions and delivery settings.
 
 5. Testing & Verification:
-  - Run the provided test scripts to validate database integrity and functionality.
-  - Verify ETL processes and ensure proper data flow between systems.
-  - Review sample reports for accuracy and completeness.
+    - Run the provided test scripts to validate database integrity and functionality.
+    - Verify ETL processes and ensure proper data flow between systems.
+    - Review sample reports for accuracy and completeness.
 
 <br>
 
