@@ -39,31 +39,6 @@ The backbone of IMS, providing:
 
 <br>
 
-## Installation & Setup
-1. Prerequisites:
-    - Windows Server or compatible OS for SQL Server 2016.
-    - SQL Server Management Studio (SSMS) for database management.
-    - Optional: Visual Studio with SSIS/SSRS extensions for development.
-
-2. Database Deployment:
-    - Restore the provided database backup file (IMS_Backup.bak) to SQL Server 2016.
-    - Configure database settings, including permissions and encryption keys.
-
-3. ETL Configuration (SSIS):
-    - Import SSIS package files (`IMS_ETL_Package.dtsx`) into SQL Server Data Tools (SSDT).
-    - Update connection strings to match your environment.
-
-4. Reporting Setup (SSRS):
-    - Deploy the SSRS report files (IMS_Reports.rdl) to the SSRS server.
-    - Configure report subscriptions and delivery settings.
-
-5. Testing & Verification:
-    - Run the provided test scripts to validate database integrity and functionality.
-    - Verify ETL processes and ensure proper data flow between systems.
-    - Review sample reports for accuracy and completeness.
-
-<br>
-
 ## Usage
 - Day-to-Day Operations:
   - Use the IMS dashboard to monitor inventory levels, restocking needs, and sales trends.
@@ -79,7 +54,7 @@ The backbone of IMS, providing:
 
 ## Directory Structure
 ```graphql
-BankingSystem\
+Inventory_Management\
 ├── T-SQL_Scripts\
 │   ├── Schema\
 │   ├── Procedures\
