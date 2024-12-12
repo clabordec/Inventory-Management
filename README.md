@@ -77,6 +77,23 @@ The backbone of IMS, providing:
 
 <br>
 
+## Directory Structure
+```graphql
+BankingSystem\
+├── T-SQL_Scripts\
+│   ├── Schema\
+│   ├── Procedures\
+│   ├── Triggers\
+├── SSIS_Packages\
+├── SSRS_Reports\
+├── PowerShell_Scripts\
+├── Documentation\
+│   ├── UserGuide.pdf
+│   ├── ArchitectureDiagram.png
+```
+
+<br>
+
 ## Contact
 For questions, support, or feature requests, please contact:
 
