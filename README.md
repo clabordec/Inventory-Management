@@ -70,9 +70,6 @@ Inventory_Management\
 <br>
 
 ## Contact
-For questions, support, or feature requests, please contact:
-
-<b>Database Administrator</b> <br>
 Chaanyah Laborde <br>
 chaanyahlaborde@gmail.com <br>
 [LinkedIn Profile](https://www.linkedin.com/in/claborde/)
