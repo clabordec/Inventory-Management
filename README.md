@@ -70,6 +70,6 @@ Inventory_Management\
 <br>
 
 ## Contact
-Chaanyah Laborde <br>
-chaanyahlaborde@gmail.com <br>
-[LinkedIn Profile](https://www.linkedin.com/in/claborde/)
+Project Maintainer: Chaanyah Laborde <br>
+Email: chaanyahlaborde@gmail.com <br>
+LinkedIn: [Chaanyah Laborde](https://www.linkedin.com/in/claborde/)
